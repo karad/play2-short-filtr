@@ -2,14 +2,14 @@
 
 ## Description
 
-Short filter module for Play2! is a Play framework 2.0 plugin that gives you an easy way to filter some text. like 
-@format.raw("STRING") is @r("STRING").
+Short filter module for Play2! is a Play framework 2.0 plugin that gives you an easy way to filter some text. 
+@format.raw("STRING") can be written as @r("STRING").
 
 ## Usage
 
 ### 1. Install the module dependency
 
-Edit file `project/Build.scala` and adjust the following settings
+Edit your play project file `project/Build.scala` and adjust the following settings
 
 ```scala
     val appDependencies = Seq(
